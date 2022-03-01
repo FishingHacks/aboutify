@@ -42,11 +42,4 @@ app.get("/review/:id", (req, res) => {
     res.redirect("/u/" + req.params.id);
 });
 
-app.listen(3000, () => {
-  console.log(`l o p3
-  http://localhost:3000/
-  g:/
-  g:/source
-  g:/u/:id
-  p:/submit`);
-});
+app.listen(3000, () => {});
